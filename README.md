@@ -1,34 +1,33 @@
-# Healthcare Recommendation System
+# Medicine Recommendation System
 
-This project implements a comprehensive **Healthcare Recommendation System** that leverages **machine learning** and **big data tools** to provide symptom-based disease prediction and personalized health advice. 
+This project delivers an advanced **Medicine Recommendation System** that harnesses the power of **machine learning** and **big data technologies** to offer disease predictions based on user symptoms, along with tailored health guidance.
 
-## Overview
-The Healthcare Recommendation System is designed to assist users in identifying potential diseases based on symptoms and providing personalized recommendations for medications, diets, workouts, and precautions. 
+## Summary
+The system is built to help users identify likely illnesses from their reported symptoms and to generate personalized advice covering medications, nutrition, exercise routines, and safety tips.
 
-It integrates a Flask-based web application with a Spark-powered backend for real-time predictions and efficient data processing. 
+It features a web application developed with Flask, connected to a Spark-based backend for rapid predictions and scalable data handling.
 
-## Features
-- **Symptom-based Disease Prediction**: Predict diseases using a pre-trained Random Forest Classifier.
-- **Personalized Recommendations**:
-  - Descriptions of the predicted disease.
-  - Suggested medications, diets, workouts, and precautions.
-- **Interactive Web Interface**: User-friendly interface powered by Flask.
-- **Scalable Backend**: Utilizes Apache Spark for processing large datasets efficiently.
+## Key Capabilities
+- **Disease Assessment via Symptoms**: Uses a pre-trained Random Forest Classifier to detect diseases from provided symptoms.
+- **Custom Health Guidance**:
+  - Detailed explanations for diagnosed conditions.
+  - Medication, diet, exercise, and precaution suggestions tailored to the individual.
+- **User-Centric Web Experience**: An intuitive, interactive web front end powered by Flask.
+- **Scalable Data Processing**: Backend operations use Apache Spark for efficient management of large health datasets.
 
-## Technologies Used
+## Technology Stack
 - **Frontend**:
-  - HTML with Jinja2 templating (via Flask).
+  - HTML templates rendered with Jinja2 (via Flask).
 - **Backend**:
-  - Flask for web services.
-  - Apache Spark for machine learning and data processing.
-  - Python libraries: NumPy, Pandas, Pickle.
+  - Flask for routing and web API.
+  - Apache Spark for scalable data science and processing tasks.
+  - Complementary Python libraries: NumPy, Pandas, and Pickle.
 - **Machine Learning**:
-  - Random Forest Classifier for disease prediction.
-  - PySpark's MLlib for building and evaluating the model.
-- **Datasets**:
-  - Symptom-disease relationships.
-  - Disease-specific medications, diets, precautions, and workouts.
-
+  - Disease prediction delivered by a Random Forest Classifier.
+  - Model training and evaluation performed using PySpark's MLlib.
+- **Data Sources**:
+  - Datasets mapping symptoms to diseases.
+  - Resources linking each condition to recommended medications, diets, safety measures, and fitness plans.
 ## Project Structure
 ```
 project-directory/
@@ -50,3 +49,5 @@ project-directory/
 |   `-- developer.html
 |-- static/        # Static assets (CSS, JS, images)
 `-- README.md
+
+# Inspired from : "https://github.com/anna123venkat/Healthcare-Recommendation-System/tree/main"
