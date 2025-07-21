@@ -6,7 +6,7 @@ This project delivers an advanced **Medicine Recommendation System** that harnes
 The system is built to help users identify likely illnesses from their reported symptoms and to generate personalized advice covering medications, nutrition, exercise routines, and safety tips.
 
 It features a web application developed with Flask, connected to a Spark-based backend for rapid predictions and scalable data handling.
-
+Inspired from : "https://github.com/anna123venkat/Healthcare-Recommendation-System/tree/main"
 ## Key Capabilities
 - **Disease Assessment via Symptoms**: Uses a pre-trained Random Forest Classifier to detect diseases from provided symptoms.
 - **Custom Health Guidance**:
@@ -53,4 +53,3 @@ project-directory/
 
 
 
-## Inspired from : "https://github.com/anna123venkat/Healthcare-Recommendation-System/tree/main"
